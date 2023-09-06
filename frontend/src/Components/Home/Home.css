@@ -1,0 +1,25 @@
+.HomeContainer{
+    width: 100vw;
+    height: 40vh;
+    z-index: 8;
+   
+     background-color: rgb(28, 129, 230);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+
+}
+
+.homeBox >h2{
+
+    font: 500 2vmax "Roboto";
+   font-family: cursive;
+}
+.homeBox >h4{
+    font: 400 1.4vmax "Roboto";
+}
+
+

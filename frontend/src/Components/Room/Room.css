@@ -1,0 +1,49 @@
+.roomContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4vmax 4vmax;
+    box-sizing: border-box;
+
+}
+.roomContainer >h2{
+    width: 13vmax;
+
+    background-color: rgb(145, 145, 145);
+    border-bottom: 3px solid rgb(0, 110, 255);
+  text-align: center;
+margin-top: 10px;
+}
+.roomBox{
+    width: 100%;
+     height: 100%;
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cardItem{
+    height: auto;
+  margin: 10px 10px;
+    display: flex;
+
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.imageBox{
+    height: 15vmax;
+    background-image: url("https://source.unsplash.com/featured/300x201");
+}
+.imageBox >button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cardItemBox{
+    padding: 1vmax 1vmax;
+}
+
